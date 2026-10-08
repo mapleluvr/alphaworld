@@ -1,0 +1,78 @@
+{
+  "authoredTaskIdentical": true,
+  "inputManifestIdentical": true,
+  "sourceUnchanged": true,
+  "allRequestedEffortsSatisfied": false,
+  "originalBytes": 9438,
+  "samples": [
+    {
+      "sample": "grok",
+      "models": [
+        {
+          "provider": "Mapleluv",
+          "modelId": "grok-4.7"
+        }
+      ],
+      "requestedThinking": "xhigh",
+      "effectiveThinkingLevels": [
+        "xhigh"
+      ],
+      "requestedEffortSatisfied": true,
+      "authoredTaskSha256": "F88E377EC03A758C774D73A9D0DBB5B3F19261244D40A6EA316FA8FC15E67495",
+      "manifestSha256": "44B0E150524AEBB1D0EB2914AC7BC2246783A5CCAE3039B24F4C3FD7121A5E3C",
+      "inputFilesUnchanged": 10,
+      "outputBytes": 29074,
+      "outputSha256": "3182086B13CABCCE2B7C1E683B30658836915441BDFF4AC4EE203D24042371DB",
+      "deliveredPath": "D:\\Projects\\HFUT\\hfut-projects\\docs\\plans\\agent-wings-infrastructure.alphaworld-grok-4.7.md",
+      "relativeLinksVerified": 14
+    },
+    {
+      "sample": "astra",
+      "models": [
+        {
+          "provider": "AnyRouter",
+          "modelId": "gpt-6-astra"
+        }
+      ],
+      "requestedThinking": "xhigh",
+      "effectiveThinkingLevels": [
+        "max"
+      ],
+      "requestedEffortSatisfied": false,
+      "authoredTaskSha256": "F88E377EC03A758C774D73A9D0DBB5B3F19261244D40A6EA316FA8FC15E67495",
+      "manifestSha256": "44B0E150524AEBB1D0EB2914AC7BC2246783A5CCAE3039B24F4C3FD7121A5E3C",
+      "inputFilesUnchanged": 10,
+      "outputBytes": 23214,
+      "outputSha256": "7FCEFEB33104F96A6649CA4E5AF7249B849CBA67AB2F61466BE8201186FD1EE3",
+      "deliveredPath": "D:\\Projects\\HFUT\\hfut-projects\\docs\\plans\\agent-wings-infrastructure.alphaworld-astra.md",
+      "relativeLinksVerified": 10
+    },
+    {
+      "sample": "sol-pro",
+      "models": [
+        {
+          "provider": "Mapleluv",
+          "modelId": "gpt-6.1-sol-pro"
+        }
+      ],
+      "requestedThinking": "xhigh",
+      "effectiveThinkingLevels": [
+        "xhigh"
+      ],
+      "requestedEffortSatisfied": true,
+      "authoredTaskSha256": "F88E377EC03A758C774D73A9D0DBB5B3F19261244D40A6EA316FA8FC15E67495",
+      "manifestSha256": "44B0E150524AEBB1D0EB2914AC7BC2246783A5CCAE3039B24F4C3FD7121A5E3C",
+      "inputFilesUnchanged": 10,
+      "outputBytes": 27091,
+      "outputSha256": "7FF27BB952E91C9BC0460D7233D80FCA0E3CD2083274DFD13163F30D82D9ED55",
+      "deliveredPath": "D:\\Projects\\HFUT\\hfut-projects\\docs\\plans\\agent-wings-infrastructure.alphaworld-sol-pro.md",
+      "relativeLinksVerified": 9
+    }
+  ],
+  "limits": [
+    "Astra requested xhigh but native session recorded max; not a conforming xhigh sample.",
+    "Task substring equality is not equality of every runtime prompt field.",
+    "No no-skill control, repeated trials, or reader execution test.",
+    "Access audit is tool-log evidence, not an OS sandbox."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "upstream_commit": "27d29232f10124db904ca9c0536d0b67cb3b2833",
+  "scope": "Direct calls to unchanged upstream functions; synthetic measurement counterexamples only.",
+  "paragraph_boundary": {
+    "documented_unit": "blank-line-separated paragraphs",
+    "wrapped_input": "这个接口继续接受旧版请求。\n客户端无需修改现有参数。",
+    "wrapped_paragraphs": [
+      "这个接口继续接受旧版请求。",
+      "客户端无需修改现有参数。"
+    ],
+    "unwrapped_input": "这个接口继续接受旧版请求。客户端无需修改现有参数。",
+    "unwrapped_paragraphs": [
+      "这个接口继续接受旧版请求。客户端无需修改现有参数。"
+    ]
+  },
+  "explicit_reference": {
+    "documented_exemption": "Keep a comment sentence that already contains a reference such as 这.",
+    "with_reference": {
+      "input": "这个接口昨天完成了兼容性检查。\n\n值得注意的是，这个接口仍然兼容旧版本。",
+      "measurement": {
+        "段数": 2,
+        "连续两句同构/百段": 0.0,
+        "连续三句同构/百段": 0.0,
+        "段首零主语评论/非首段%": 100.0,
+        "比喻起段/百段(对照)": 0.0
+      }
+    },
+    "without_reference": {
+      "input": "这个接口昨天完成了兼容性检查。\n\n值得注意的是，仍然兼容旧版本。",
+      "measurement": {
+        "段数": 2,
+        "连续两句同构/百段": 0.0,
+        "连续三句同构/百段": 0.0,
+        "段首零主语评论/非首段%": 100.0,
+        "比喻起段/百段(对照)": 0.0
+      }
+    }
+  },
+  "heading_detection": {
+    "documented_target": "Three or more numbered headings; ordinary prose 首先/其次 is exempt.",
+    "headings": {
+      "input": "## 一、核对接口约定\n## 二、运行兼容检查\n## 三、完成交付报告",
+      "hits": 0
+    },
+    "prose": {
+      "input": "首先，核对接口约定。\n其次，运行兼容检查。\n最后，完成交付报告。",
+      "hits": 3
+    }
+  }
+}

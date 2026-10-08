@@ -1,0 +1,12 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+.gitmodules text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Evidence snapshots retain original bytes, including line endings.
+archive/template-skill/** -text
+research/agent-wings-plan-cases/** -text
+research/upstream-metric-probes.json -text

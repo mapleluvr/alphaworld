@@ -1,0 +1,13 @@
+# Local validation and tool state
+.local/
+.pi/
+.ruff_cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example

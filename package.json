@@ -1,0 +1,8 @@
+{
+  "name": "alphaworld",
+  "private": true,
+  "description": "A skill for writing, documentation, and software engineering through generation, validation, and delivery.",
+  "pi": {
+    "skills": ["./skills/alphaworld"]
+  }
+}
