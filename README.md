@@ -23,10 +23,23 @@ pi install ./alphaworld
 
 也可将完整的 `skills/alphaworld/` 目录复制到支持 Agent Skills 的工具中；请同时保留其 `references/`。
 
+## SWE 专门化包
+
+[Alphaworld-SWE](https://github.com/mapleluvr/alphaworld-swe) 面向软件工程、工程文档与技术协作，使用自己的清单和自包含附件，已迁出为独立公开仓库，在本仓库之外维护：
+
+```powershell
+gh repo clone mapleluvr/alphaworld-swe
+pi install ./alphaworld-swe
+```
+
+通过 `/skill:alphaworld-swe` 显式调用。本仓库不再包含该包；安装本仓库不会加载 SWE skill，运行它也不依赖这里的研究材料。
+
+根目录的 `SKILL-Candidate.md` 与 `document-work-cases-no7.md` 保留为讨论材料，不是继续维护的运行入口。取舍及验证范围见[独立包评议记录](research/alphaworld-swe-package-review.md)。
+
 ## 仓库布局
 
 ```text
-skills/alphaworld/          现行 skill 与按需附件
+skills/alphaworld/          通用版 skill 与按需附件
 archive/template-skill/    早期主文和两个附件的原字节归档
 research/                 设计记录、文本对照、测量探针
   agent-wings-plan-cases/  原稿、改写稿和运行审计
@@ -48,6 +61,6 @@ python -B research/probe_upstream_metrics.py
 
 ## 证据状态
 
-现有计划改写能用于观察编辑选择，不能单独证明 skill 的因果收益。独立运行采用较早的 skill 快照；其中 Astra 请求 `xhigh`、实际运行 `max` 的差异保留在审计中。当前文档情境是构造案例，其反馈过程不冒充已发生的实验。
+现有计划改写能用于观察编辑选择，不能单独证明 skill 的因果收益。独立运行采用较早的 skill 快照；其中 Astra 请求 `xhigh`、实际运行 `max` 的差异保留在审计中。通用版的六个文档情境是构造案例，其反馈过程不冒充已发生的实验。迁出的 SWE skill 追加的第七情境未附运行溯源，只按其所述条件分析，不认定为已复现的实际实验。
 
 历史改写稿按原字节保存，内部相对链接仍以来源项目布局为基准；审计中的本地绝对路径用于追溯原运行，不是安装依赖。完整会话日志、凭证和本地缓存不随仓库发布。

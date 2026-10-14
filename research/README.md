@@ -1,12 +1,14 @@
 # 研究与设计记录
 
-本目录保存设计来路、实际改写及有限测量，不是 skill 的常驻输入。现行版本见 [Alphaworld](../skills/alphaworld/SKILL.md)。
+本目录保存设计来路、实际改写及有限测量，不是 skill 的常驻输入。通用版见 [Alphaworld](../skills/alphaworld/SKILL.md)；SWE 专门化版本已迁出为独立公开仓库 [Alphaworld-SWE](https://github.com/mapleluvr/alphaworld-swe)，不在本目录。
 
 ## 从哪里读
 
 | 材料 | 用途 |
 | --- | --- |
 | [文档工作变更记录](alphaworld-document-work-change.md) | 读者问题、澄清与偏好指导怎样进入主文件 |
+| [SWE 候选评议](alphaworld-swe-candidate-review.md) | 候选首轮修订及当时验证范围 |
+| [SWE 独立包评议](alphaworld-swe-package-review.md) | 留存判据、案例合并、独立封装及思想原文恢复的取舍和检查 |
 | [Agent Wings 改写记录](agent-wings-plan-cases/README.md) | 原稿、主会话及独立子代理成稿，输入隔离、参数偏差和比较范围 |
 | [自然表达研究评阅](lieflat-less-ai-tone-review.md) | 对上游规则和测量实现的检查，以及可借鉴的判断 |
 | [测量探针](probe_upstream_metrics.py) / [结果](upstream-metric-probes.json) | 直接调用未修改的上游函数，复现三项测量定义不一致 |
